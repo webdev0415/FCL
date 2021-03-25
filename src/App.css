@@ -1,0 +1,142 @@
+.App {
+	text-align: center;
+}
+
+.App-logo {
+	height: 40vmin;
+	pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
+}
+
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+* {
+	margin-top: 0;
+}
+
+.NavBar {
+	color: white;
+	height: 50px;
+	background-color: black;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.NavLink {
+	color: white;
+	padding-right: 20px;
+	text-decoration: none;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 24px;
+}
+.NavLink:hover {
+	color: rgb(179, 179, 179);
+	text-decoration: none;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 24px;
+}
+.signUp {
+	color: white;
+	text-decoration: none;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 24px;
+}
+
+.Hero {
+	width: 100%;
+	background-color: #282c34;
+	height: 500px;
+	font-family: 'Bebas Neue', cursive;
+}
+
+.HeroDrop {
+	width: 100vw;
+	background-color: #282c34;
+	height: auto;
+	font-family: 'Bebas Neue', cursive;
+	margin: none;
+	padding-bottom: 20px;
+}
+
+h1 {
+	font-family: 'Bebas Neue', cursive;
+}
+
+.logo {
+	width: 100px;
+}
+
+.featuredDrops {
+	padding-top: 30px;
+	text-align: center;
+	font-family: 'Bebas Neue';
+}
+
+.aboutContainer {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.footer {
+	height: 50px;
+	margin-top: 10px;
+	background-color: black;
+}
+
+.dropThumb {
+	width: 100%;
+}
+
+.centerHeadline {
+	text-align: center;
+	margin: 20px;
+}
+
+.dropCardText {
+	font-family: 'Bebas Neue';
+}
+
+.dropCardTitle {
+	font-family: 'Roboto', sans-serif;
+}
+.dropCardHeading {
+	font-family: 'Bebas Neue';
+	font-size: 24pt;
+	text-align: center;
+}
+.dropDetailsButton {
+	margin-left: auto;
+	margin-right: auto;
+}
+.checkoutCard {
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
